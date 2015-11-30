@@ -1,0 +1,36 @@
+[user]
+        name = Ryan Liang
+        email = ryanliang@gmail.com
+[alias]
+        st = status
+        fe = fetch
+        br = branch
+        co = checkout
+        cm = commit -m
+        sh = stash save
+        shp = stash pop
+        shd = stash drop
+        shl = stash list
+        rs  = reset
+        dw = diff --word-diff
+        d  = diff
+        dc = diff --cached
+        a  = add
+        c  = commit
+        g  = grep
+        l  = log
+        s  = show
+        f = "!git ls-files | grep -i"
+        ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%C(cyan)\\ [%cn]" --decorate --numstat
+        ls = log --pretty=format:"%C(green)%h\\ %C(yellow)[%ad]%Cred%d\\ %Creset%s%C(cyan)\\ [%cn]" --decorate --date=relative
+        lnc = log --pretty=format:"%h\\ %s\\ [%cn]"
+        lds = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%C(cyan)\\ [%cn]" --decorate --date=short
+        rb = rebase
+        rbi = rebase -i
+        cp = cherry-pick
+[diff]
+        tool = meld
+[core]
+        editor = vi
+	autocrlf = true
+
